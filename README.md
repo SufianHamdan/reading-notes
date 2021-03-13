@@ -4,7 +4,7 @@
 
 |#|Subject|Link|
 |-----|--------|--------|
-|1   |        |--------|
+|1   |Read01        |[HTML & javascript Summary](https://sufianhamdan.github.io/reading-notes/Read01)|
 |2   |        |--------|
 |3   |        |--------|
 |4   |        |--------|
