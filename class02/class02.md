@@ -304,3 +304,156 @@ CSS rules in a separate style sheet.
 
 All of your web pages can share the same style sheet. This is achieved by using the `<link>` element on each HTML page of your site to link to the same CSS document. This means that the same code does not need to be
 repeated in every page (which results in less code and smaller HTML pages).
+
+---
+
+
+# Javascript
+
+### Basic JavaScript Instructions
+
+#### STATEMENTS
+
+A script is a series of instructions that a computer can follow one-by-one. Each individual instruction or step is known as a statement. Statements should end with a semicolon.
+
+![Result](jsst.png)
+
+* Each of the lines of code in green is a statement.
+* The pink curly braces indicate the start and end of a code block. (Each code block could contain many more statements.)
+* The code in purple determines which code should run (as you will see on p149).
+
+**JAVASCRIPT IS CASE SENSITIVE**
+JavaScript is case sensitive so hourNow means something different to HourNow or HOURNOW.
+
+#### COMMENTS
+
+You should write comments to explain what your code does. They help make your code easier to read and understand. This can help you and others who read your code.
+
+**MULTI-LINE COMMENTS**
+To write a comment that stretches over more than one line, you use a multi-line comment, starting with
+the `/*` characters and ending with the `*/` characters. Anything between these characters is not processed·
+by the JavaScript interpreter.
+
+**SINGLE-LINE COMMENTS**
+In a single-line comment, anything that follows the two forward slash characters `//` on that line will not
+be processed by the JavaScript interpreter. Singleline comments are often used for short descriptions
+of what the code is doing.
+
+---
+
+### WHAT IS A VARIABLE?
+
+A script will have to temporarily store the bits of information it needs to do its job. It can store this
+data in variables.
+
+A variable is a good name for this concept because the data stored in a variable can change (or vary)
+each time a script runs.
+
+### How to declare variables?
+
+![Result](var.png)
+
+### How to assign variables?
+
+![Result](varass.png)
+
+---
+
+### DATA TYPES
+JavaScript distinguishes between numbers, strings, and true or false values known as Booleans.
+**NUMERIC DATA TYPE**
+The numeric data type handles numbers.
+
+**STRING DATA TYPE**
+The strings data type consists of letters and other characters.
+
+**BOOLEAN DATA TYPE**
+Boolean data types can have one of two va lues: true or false.
+
+---
+
+### ARRAYS
+
+An array is a special type of variable. It doesn't just store one value; it stores a list of values.
+
+You should consider using an array whenever you are working with a list or a set of values that
+are related to each other.
+
+Arrays are especially helpful when you do not know how many items a list will contain
+because, when you create the array, you do not need to specify how many values it will hold.
+
+For example, an array can be suited to storing the individual items on a shopping list because
+it is a list of related items.
+Additionally, each time you write a new shopping list, the number of items on it may differ.
+
+#### CREATING AN ARRAY
+
+![Result](arr.png)
+
+This technique for creating an array is known as an array literal. It is usually the preferred
+method for creating an array.
+You can also write each value on a separate line:
+`colors= ['white', 'black', 'custom'];`
+
+![Result](arr2.png)
+
+you can see an array created using a different technique called an array constructor. This uses the new
+keyword followed by Array(); The va lues are then specified in parentheses (not squarebrackets), and each value is separated by a comma. You can also use a method called i tern()to retrieve data from the array.
+(The index number of the item is specified in the parentheses.)
+
+The array literal (shown in the first code sample) is preferred over the
+array constructor when creating arrays.
+
+---
+
+#### EXPRESSIONS
+
+An expression evaluates into (results in) a single value. Broadly speaking
+there are two types of expressions.
+**1. EXPRESSIONS THAT JUST ASSIGN A VALUE TO A VARIABLE**
+In order for a variable to be useful, it needs to be given a value. As you have seen, this is done using
+the assignment operator (the equals sign).
+`var color = 'beige';`
+The value of color is now beige.
+
+**2. EXPRESSIONS THAT USE TWO OR MORE VALUES TO RETURN A SINGLE VALUE**
+You can perform operations on any number of individual values (see next page) to determine a single value. 
+For example:
+`var area = 3 * 2;`
+The value of area is now 6.
+
+### ARITHMETIC OPERATORS
+
+JavaScript contains the following mathematical
+operators, which you can use with numbers.
+
+
+![Result](arrop.png)
+
+### Decisions and Loops
+
+Scripts often need to behave differently depending upon how the user interacts with the web
+page and/or the browser window itself. To determine which path to take, programmers often
+rely upon the following three concepts:
+
+**EVALUATIONS**
+You can analyze values in your scripts to determine whether or note they match expected results.
+
+**DECISIONS**
+Using the results of evaluations, you can decide which path your script should go down.
+
+**LOOPS**
+There are also many occasions where you will want to perform the same set of steps repeatedly.
+
+
+### Comparison operators
+
+![Result](comp.png)
+
+![Result](comp2.png)
+
+### Logical operators
+
+
+![Result](log.png)
+
