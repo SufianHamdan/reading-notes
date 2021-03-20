@@ -32,7 +32,7 @@ their corresponding values.
 The value of a property can be a st ring, number, Boolean, array, or even another object. The va lue of a
 method is always a function.
 
-![img](kv.png)
+![img](images/kv.png)
 
 
 ---
