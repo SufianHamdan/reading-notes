@@ -18,7 +18,7 @@ the object. For example, you can check how many rooms are available by subtracti
 booked rooms from the total number of rooms.
 
 
-![img](obj.png)
+![img](images/obj.png)
 
 This object represents a hotel. It has five properties and one method.
 The object is in curly braces. It is stored in a variable called hotel .
@@ -32,7 +32,7 @@ their corresponding values.
 The value of a property can be a st ring, number, Boolean, array, or even another object. The va lue of a
 method is always a function.
 
-![img](kv.png)
+![img](images/kv.png)
 
 
 ---
@@ -41,7 +41,7 @@ method is always a function.
 
 Litiral notation is the easiest and most popular way to create objects.
 
-![img](crobj.png)
+![img](images/crobj.png)
 
 
 ### Accessing an objecta and dot notation
@@ -50,7 +50,7 @@ You can access the properties or methods of an object using dot notation.
 You can also access properties using square brackets.
 
 
-![img](accobj.png)
+![img](images/accobj.png)
 
 ---
 
@@ -109,7 +109,7 @@ HTML elements describe the structure of an HTML page. (The `<h1>` - `<h6>` eleme
 Each node is an object with methods and properties. Scripts access and update this DOM tree (not the source HTML file). Any changes made to the DOM tree are reflected in the browser.
 
 
-![img](domtree.png)
+![img](images/domtree.png)
 
 
 
@@ -119,43 +119,43 @@ Accessing and updating the DOM tree involves two steps:
 1: Locate the node that represents the element you want to work with.
 2: Use its text content, child elements, and attributes.
 
-![img](accele.png)
+![img](images/accele.png)
 
 
 The terms elements and element nodes are used interchangeably but when people say the DOM is working with an element, it is actually working with a node that represents that element.
 
-![img](accele2.png)
+![img](images/accele2.png)
 
 
 ### Caching Dom queries
 
-![img](qu1.png)
+![img](images/qu1.png)
 
-![img](qu2.png)
+![img](images/qu2.png)
 
 
 ### Methods can select individual elements
 
-![img](msel.png)
+![img](images/msel.png)
 
 
 ### selecting an element from a nodelist
 
-![img](nsel.png)
+![img](images/nsel.png)
 
-![img](nsel2.png)
+![img](images/nsel2.png)
 
 ### Repeating actions for  an entire nodelist
 
 
-![img](r1.png)
+![img](images/r1.png)
 
 
 ### Adding or removing html content
 
-![img](ad1.png)
+![img](images/ad1.png)
 
-![img](ad2.png)
+![img](images/ad2.png)
 
 
 
