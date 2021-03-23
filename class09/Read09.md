@@ -14,7 +14,7 @@ newsletters or mailing lists.
 There are several types of form controls that you can use to collect information from visitors
 to your site.
 
-![Res](images/fc.jpg)
+![Res](fc.jpg)
 
 
 ### How Forms Work
