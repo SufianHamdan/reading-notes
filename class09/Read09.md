@@ -86,3 +86,83 @@ For an ordered (numbered) list you can use the following values:
 * upper-alpha
 * lower-roman
 * upper-roman
+
+
+### TABLE PROPERTIES
+
+**width:** to set the width of the table
+**padding:** to set the space between the border of each table cell and its content
+**text-transform:** to convert the content of the table headers to uppercase
+**letter-spacing, font-size:** to add additional styling to the content of the table headers
+**border-top, border-bottom:** to set borders above and below the table headers
+**text-align:** to align the writing to the left of some table cells and to the right of the others
+**background-color:** to change the background color of the alternating table rows
+**:hover** to highlight a table row when a user's mouse goes over it.
+
+
+
+---
+
+
+# JS EVENT
+
+Here is a selection of the events that occur in the browser while you are
+browsing the web. Any of these events can be used to trigger a function
+in your JavaScript code.
+
+![Res](images/ev.png)
+
+
+**EVENTS FIRE OR ARE RAISED**
+When an event has occurred, it is often described as having fired or been raised. In the diagram on the right, if the user is tapping on a link, a cl ick event would fire in the browser.
+**EVENTS TRIGGER SCRIPTS**
+Events are said to t rigger a function or script. When the click event fires on the element in this diagram, it could trigger a script that enlarges the selected item.
+
+![Res](images/ev2.png)
+
+
+### HOW EVENTS TRIGGER JAVASCRIPT CODE
+
+When the user interacts with the HTML on a web page, there are three steps involved in getting it to trigger some JavaScript code. Together these steps are known as event handling.
+
+1. Select t he element node(s) you want the script to respond to.
+For example, if you want to trigger a function when a user clicks on a specific link, you need
+to get the DOM node for that link element. You do this using a DOM query.
+
+2. Indicate which event on the selected node(s) will trigger the response. Programmers call this binding an
+event to a DOM node.
+
+3. State the code you want to run when the event occurs. When the event occurs, on a
+specified element, it will trigger a function. This may be a named or an anonymous function.
+
+
+Here you can see how event handling can be used to provide feedback to users filling in a registration form. It will show an error message if their username is too short.
+
+![Res](images/ev3.png)
+
+
+### TRADITIONAL DOM EVENT HANDLERS
+
+All modern browsers understand this way of creating an event handler,
+but you can only attach one function to each event handler.
+
+![Res](images/ev4.png)
+
+
+### EVENT LISTENERS
+Event listeners are a more recent approach to handling events. They can deal with more than one function at a time but they are not supported in older browsers.
+
+![Res](images/ev5.png)
+
+
+### USING PARAMETERS WITH EVENT HANDLERS & LISTENERS
+
+Because you cannot have parentheses after thefunction names in event handlers or listeners,
+passing arguments requires a workaround.
+
+![Res](images/ev6.png)
+
+
+### USING PARAMETERS WITH EVENT LISTENERS
+
+![Res](images/ev7.png)
