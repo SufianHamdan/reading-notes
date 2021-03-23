@@ -14,19 +14,19 @@ newsletters or mailing lists.
 There are several types of form controls that you can use to collect information from visitors
 to your site.
 
-![Res](images/fc.jpg)
+![Res](images/fc.png)
 
 
 ### How Forms Work
 
 A user fills in a form and then presses a button to submit the information to the server.
 
-![Res](images/fw.jpg)
+![Res](images/fw.png)
 
 A form may have several form controls, eachgathering different information. The server
 needs to know which piece of inputted data corresponds with which form element.
 
-![Res](images/fd.jpg)
+![Res](images/fd.png)
 
 
 ### Form Structure
@@ -59,7 +59,7 @@ We look at the id attribute on page 183, but the value is used to identify the f
 entered information into fields that require values).
 
 
-![Res](images/fs.jpg)
+![Res](images/fs.png)
 
 ---
 
