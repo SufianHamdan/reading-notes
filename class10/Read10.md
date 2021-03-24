@@ -2,13 +2,13 @@
 
 To find the source of an error, it helps to know how scripts are processed. The order in which statements are executed can be complex; some task cannot complete until another statement or function has been run:
 
-![Res](images/oe.png)
+![Res](oe.png)
 
 ### The stack
 
-![Res](images/oe2.png)
+![Res](oe2.png)
 
-![Res](images/oe3.png)
+![Res](oe3.png)
 
 ### UNDERSTANDING SCOPE
 
