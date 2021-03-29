@@ -98,7 +98,7 @@ The script includes a function called draw(), which is executed once the page fi
 
 Here is how a template would look in action. As shown here, it is initially blank.
 
-![Res](images/res.ong)
+![Res](images/res.png)
 
 
 ### A simple example
@@ -131,4 +131,4 @@ To begin, let's take a look at a simple example that draws two intersecting rect
 </html>
 
 ```
-![Res](images/res2.ong)
+![Res](images/res2.png)
